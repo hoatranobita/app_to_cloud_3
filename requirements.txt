@@ -22,7 +22,7 @@ plotly==5.10.0
 pynndescent==0.5.7
 python-dateutil==2.8.2
 pytz==2022.2.1
-scipy==1.9.1
+scipy
 six==1.16.0
 tenacity==8.0.1
 threadpoolctl==3.1.0
