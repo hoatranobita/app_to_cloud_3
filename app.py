@@ -16,7 +16,7 @@ from plotly.colors import n_colors
 #counts_url = "https://www.dropbox.com/s/pivx6ktd4zfj4jn/counts.csv?dl=1"
 #seurat_counts = pd.read_table(counts_url,sep=',', header=(0))
 
-TSNEdf = pd.read_csv('TSNEdf.csv')
+TSNEdf = pd.read_csv('https://raw.githubusercontent.com/hoatranobita/app_to_cloud_3/main/TSNEdf.csv')
 TSNEdf['clusters'] = TSNEdf['clusters'].astype(str)
 UMAPdf = pd.read_csv('UMAPdf.csv')
 UMAPdf['clusters'] = UMAPdf['clusters'].astype(str)
