@@ -18,7 +18,7 @@ from plotly.colors import n_colors
 
 TSNEdf = pd.read_csv('https://raw.githubusercontent.com/hoatranobita/app_to_cloud_3/main/TSNEdf.csv')
 TSNEdf['clusters'] = TSNEdf['clusters'].astype(str)
-UMAPdf = pd.read_csv('UMAPdf.csv')
+UMAPdf = pd.read_csv('https://raw.githubusercontent.com/hoatranobita/app_to_cloud_3/main/UMAPdf.csv')
 UMAPdf['clusters'] = UMAPdf['clusters'].astype(str)
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.LUX])
